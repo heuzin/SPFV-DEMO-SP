@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d897f771-43c4-4c12-9ae0-6afb4922f5b3",
+  "alias": "PropertyPaneWpWebPartWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "PropertyPaneWpWebPart" },
+      "description": { "default": "PropertyPaneWpWebPart description" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "PropertyPaneWpWebPart",
+        "productName": "keyboard",
+        "productDescription": "keyboard description",
+        "productCost": 0,
+        "quantity": 0,
+        "billAmount": 0,
+        "discount": 0,
+        "netBillAmount": 0
+      }
+    }
+  ]
+}

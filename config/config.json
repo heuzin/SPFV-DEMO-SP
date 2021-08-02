@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "helo-world-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/heloWorld2/HeloWorld2WebPart.js",
+          "manifest": "./src/webparts/heloWorld2/HeloWorld2WebPart.manifest.json"
+        }
+      ]
+    },
+    "get-list-of-lists-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getListOfListsWebPart/GetListOfListsWebPartWebPart.js",
+          "manifest": "./src/webparts/getListOfListsWebPart/GetListOfListsWebPartWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-pane-wp-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneWpWebPart/PropertyPaneWpWebPartWebPart.js",
+          "manifest": "./src/webparts/propertyPaneWpWebPart/PropertyPaneWpWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "HeloWorld2WebPartStrings": "lib/webparts/heloWorld2/loc/{locale}.js",
+    "GetListOfListsWebPartWebPartStrings": "lib/webparts/getListOfListsWebPart/loc/{locale}.js",
+    "PropertyPaneWpWebPartWebPartStrings": "lib/webparts/propertyPaneWpWebPart/loc/{locale}.js"
+  }
+}
